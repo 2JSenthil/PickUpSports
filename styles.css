@@ -323,5 +323,6 @@ input:focus,
 .skip-link:focus {
     clip-path: none;
     outline: 2px solid #4b0082;
+    /* Learned this in the shadow CodeHS assignment */
     box-shadow: 0 0 0 4px white;
 }
