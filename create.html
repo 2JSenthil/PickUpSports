@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Event | Pick Up Sports</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="events.html">Browse Events</a>
+            <a href="my-events.html">My Events</a>
+            <a href="create.html" aria-current="page">Host an Event</a>
+        </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1" class="screen create">
+        <h1>Create Event</h1>
+
+        <form action="created.html">
+            <div class="field">
+                <label for="sport">Sport</label>
+                <input id="sport" type="text" placeholder="Type sport" required>
+            </div>
+            <div class="field-row">
+                <div class="field">
+                    <label for="people">People Needed</label>
+                    <input id="people" type="number" placeholder="Number" min="1" required>
+                </div>
+                <div class="field">
+                    <label for="date">Date</label>
+                    <input id="date" type="date" required>
+                </div>
+            </div>
+            <div class="field">
+                <label for="start">Start Time</label>
+                <input id="start" type="time" required>
+            </div>
+            <div class="field">
+                <label for="end">End Time</label>
+                <input id="end" type="time" required>
+            </div>
+            <div class="field">
+                <label for="address">Address</label>
+                <input id="address" type="text" placeholder="Type address" required>
+            </div>
+            <button class="button navy" type="submit">Create</button>
+        </form>
+
+        <a class="back" href="host.html" aria-label="Back to host options">&larr;</a>
+    </main>
+</body>
+</html>

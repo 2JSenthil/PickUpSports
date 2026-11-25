@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In | Pick Up Sports</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="events.html">Browse Events</a>
+            <a href="my-events.html">My Events</a>
+            <a href="create.html">Host an Event</a>
+        </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1" class="screen account">
+        <h1>Log In</h1>
+        <!-- Had to search up different componenets of form -->
+        <form action="play.html">
+            <div class="field">
+                <label for="email">Email</label>
+                <input id="email" type="email" autocomplete="username" placeholder="Type email" required>
+            </div>
+            <div class="field">
+                <label for="password">Password</label>
+                <input id="password" type="password" autocomplete="current-password" placeholder="Password" required>
+            </div>
+            <button class="button secondary" type="submit">Log In</button>
+        </form>
+
+        <a class="back" href="index.html" aria-label="Back to home">&larr;</a>
+    </main>
+</body>
+</html>
