@@ -20,18 +20,12 @@
     <main id="main-content" tabindex="-1" class="screen confirmation">
         <div class="message">
             <h1>Event Joined!</h1>
-            <p><span id="event-location">Hooker Field</span> · Nov. 25 · 5 pm</p>
+            <p>Hooker Field · Nov. 25 · 5 pm</p>
         </div>
 
         <div class="actions">
             <a class="button navy" href="index.html">Log Out</a>
         </div>
     </main>
-    <script>
-        const sport = new URLSearchParams(window.location.search).get('sport');
-        if (sport === 'basketball') {
-            document.getElementById('event-location').textContent = 'Pleasant Park';
-        }
-    </script>
 </body>
 </html>
